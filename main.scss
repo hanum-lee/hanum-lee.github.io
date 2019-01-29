@@ -1,6 +1,59 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 $font-main: 'Gloria Hallelujah', cursive;
+$color1 : #374B4A;
+$color2 : #526760;
+$color3 : #8B8BAE;
+$color4 : #88D9E6;
+$color5 : #C5FFFD;
+
+body{
+  background-color: $color5;
+}
 
 h1 {
   font-family: $font-main;
+  color: $color1;
+}
+
+nav{
+  width:10%;
+
+  ul{
+    list-style-type: none;
+    background-color: $color3;
+    padding:0px;
+    margin:0px;
+    li{
+      a{
+        text-align:center;
+        padding: 8px;
+        display:block;
+      }
+      a:hover{
+        background-color:$color2;
+        color:white;
+      }
+    }
+  }
+
+
+}
+.main{
+  background-color: $color4;
+  color: $color2;
+  display:flex;
+  flex-flow:row;
+}
+.container{
+  margin: 0px;
+  padding:10px;
+}
+
+.active{
+  background-color: $color2;
+
+}
+
+heading, footer{
+
 }
