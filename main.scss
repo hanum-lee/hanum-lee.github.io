@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 $font-main: 'Gloria Hallelujah', cursive;
+
 $color1 : #374B4A;
 $color2 : #526760;
 $color3 : #8B8BAE;
@@ -18,15 +19,19 @@ h1 {
 nav{
   width:10%;
 
+
   ul{
+    border-radius: 7px;
     list-style-type: none;
     background-color: $color3;
     padding:0;
     margin:0;
+    border: 1px solid $color3;
     li{
 
       a{
         text-decoration: none;
+        color:$color1;
         text-align:center;
         padding: 8px;
         display:block;
@@ -35,35 +40,65 @@ nav{
       a:hover{
         background-color:$color2;
         color:white;
+        border-radius: 5px;
       }
       a:visited{
         color:$color1;
 
       }
+
     }
   }
 
 
 }
 .main{
-  background-color: $color4;
+
   color: $color2;
   display:flex;
   flex-flow:row;
+  border-radius: 10px;
 }
+
 .container{
-  margin: 0;
+  background-color: $color4;
+  width:90%;
+  margin-left: 18px;
+  margin-right:18px;
+  border-radius: 8px;
+  //border-left: 18px solid $color5;
+  //border-right: 18px solid $color5;
   padding:10px;
+
 }
 
 .active{
   background-color: $color2;
+  border-radius: 5px;
 
 }
 
 header, footer{
-
+  display:block;
+  min-height: 80px;
 }
+
 .logo{
 
+}
+
+table{
+  border-collapse: collapse;
+  text-align: center;
+
+  tr:nth-of-type(even){
+    background-color: #22F8E6;
+  }
+  th,td{
+
+    padding: 0;
+    margin: 0;
+    border-bottom : 1px solid black;
+    //border-spacing: 5px;
+  }
 }

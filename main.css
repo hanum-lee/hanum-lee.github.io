@@ -12,13 +12,16 @@ nav {
   width: 10%;
 }
 nav ul {
+  border-radius: 7px;
   list-style-type: none;
   background-color: #8B8BAE;
   padding: 0;
   margin: 0;
+  border: 1px solid #8B8BAE;
 }
 nav ul li a {
   text-decoration: none;
+  color: #374B4A;
   text-align: center;
   padding: 8px;
   display: block;
@@ -26,25 +29,49 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #526760;
   color: white;
+  border-radius: 5px;
 }
 nav ul li a:visited {
   color: #374B4A;
 }
 
 .main {
-  background-color: #88D9E6;
   color: #526760;
   display: flex;
   flex-flow: row;
+  border-radius: 10px;
 }
 
 .container {
-  margin: 0;
+  background-color: #88D9E6;
+  width: 90%;
+  margin-left: 18px;
+  margin-right: 18px;
+  border-radius: 8px;
   padding: 10px;
 }
 
 .active {
   background-color: #526760;
+  border-radius: 5px;
+}
+
+header, footer {
+  display: block;
+  min-height: 80px;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+table tr:nth-of-type(even) {
+  background-color: #22F8E6;
+}
+table th, table td {
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid black;
 }
 
 /*# sourceMappingURL=main.css.map */
