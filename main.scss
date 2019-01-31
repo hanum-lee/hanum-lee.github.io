@@ -6,9 +6,12 @@ $color2 : #526760;
 $color3 : #8B8BAE;
 $color4 : #88D9E6;
 $color5 : #C5FFFD;
+$colortable:#72B7C1;
 
 body{
-  background-color: $color5;
+  //background-color: $color5;
+  background: linear-gradient(to right bottom, $color5, white) no-repeat;
+
 }
 
 h1 {
@@ -53,11 +56,12 @@ nav{
 
 }
 .main{
-
+  font-size: 1.2em;
   color: $color2;
   display:flex;
   flex-flow:row;
   border-radius: 10px;
+  min-height: 700px;
 }
 
 .container{
@@ -92,7 +96,7 @@ table{
   text-align: center;
 
   tr:nth-of-type(even){
-    background-color: #22F8E6;
+    background-color: $colortable;
   }
   th,td{
 

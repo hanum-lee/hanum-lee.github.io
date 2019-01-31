@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah");
 body {
-  background-color: #C5FFFD;
+  background: linear-gradient(to right bottom, #C5FFFD, white) no-repeat;
 }
 
 h1 {
@@ -36,10 +36,12 @@ nav ul li a:visited {
 }
 
 .main {
+  font-size: 1.2em;
   color: #526760;
   display: flex;
   flex-flow: row;
   border-radius: 10px;
+  min-height: 700px;
 }
 
 .container {
@@ -66,7 +68,7 @@ table {
   text-align: center;
 }
 table tr:nth-of-type(even) {
-  background-color: #22F8E6;
+  background-color: #72B7C1;
 }
 table th, table td {
   padding: 0;
