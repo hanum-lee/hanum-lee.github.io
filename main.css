@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah");
+@import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Josefin+Sans");
 body {
-  background: linear-gradient(to right bottom, #C5FFFD, white) no-repeat;
+  background: linear-gradient(to right bottom, #200775, #B5380E 95%) no-repeat;
 }
 
 h1 {
   font-family: "Gloria Hallelujah", cursive;
-  color: #374B4A;
 }
 
 nav {
@@ -37,15 +36,16 @@ nav ul li a:visited {
 
 .main {
   font-size: 1.2em;
-  color: #526760;
+  color: #E5DCB0;
   display: flex;
   flex-flow: row;
   border-radius: 10px;
   min-height: 700px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .container {
-  background-color: #88D9E6;
+  background-color: #7A9ABA;
   width: 90%;
   margin-left: 18px;
   margin-right: 18px;
@@ -59,21 +59,32 @@ nav ul li a:visited {
 }
 
 header, footer {
+  color: #D9CFC1;
   display: block;
   min-height: 80px;
 }
 
-table {
-  border-collapse: collapse;
+header {
   text-align: center;
 }
+
+table {
+  border-collapse: collapse;
+}
 table tr:nth-of-type(even) {
-  background-color: #72B7C1;
+  background-color: #647E99;
 }
 table th, table td {
-  padding: 0;
+  padding-left: 5px;
   margin: 0;
   border-bottom: 1px solid black;
+}
+
+#cherryb {
+  opacity: 0.3;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
