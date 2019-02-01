@@ -40,7 +40,7 @@ nav ul li a:visited {
   display: flex;
   flex-flow: row;
   border-radius: 10px;
-  min-height: 700px;
+  min-height: 750px;
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -51,6 +51,10 @@ nav ul li a:visited {
   margin-right: 18px;
   border-radius: 8px;
   padding: 10px;
+  opacity: 0.8;
+}
+.container .text {
+  opacity: 1.2;
 }
 
 .active {
@@ -58,13 +62,14 @@ nav ul li a:visited {
   border-radius: 5px;
 }
 
+.link {
+  text-decoration: none;
+}
+
 header, footer {
   color: #D9CFC1;
   display: block;
   min-height: 80px;
-}
-
-header {
   text-align: center;
 }
 
@@ -75,16 +80,14 @@ table tr:nth-of-type(even) {
   background-color: #647E99;
 }
 table th, table td {
+  padding-top: 5px;
   padding-left: 5px;
   margin: 0;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
 }
 
-#cherryb {
-  opacity: 0.3;
-  position: absolute;
-  right: 0;
-  bottom: 0;
+.aside {
+  min-width: 10%;
 }
 
 /*# sourceMappingURL=main.css.map */

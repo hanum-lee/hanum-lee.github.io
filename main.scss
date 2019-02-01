@@ -63,26 +63,25 @@ nav{
 }
 .main{
   font-size: 1.2em;
-  //color: $color2;
   color: $colorart;
   display:flex;
   flex-flow:row;
   border-radius: 10px;
-  min-height: 700px;
+  min-height: 750px;
   font-family: $font-main;
 }
 
 .container{
-  //background-color: $color4;
   background-color: #7A9ABA;
   width:90%;
   margin-left: 18px;
   margin-right:18px;
   border-radius: 8px;
-  //border-left: 18px solid $color5;
-  //border-right: 18px solid $color5;
   padding:10px;
-
+  opacity: 0.8;
+  .text{
+    opacity: 1.2;
+  }
 }
 
 .active{
@@ -90,18 +89,14 @@ nav{
   border-radius: 5px;
 
 }
-
+.link{
+  text-decoration: none;
+}
 header, footer{
   color: $fontcol;
   display:block;
   min-height: 80px;
-}
-header{
   text-align: center;
-}
-
-.logo{
-
 }
 
 table{
@@ -111,18 +106,14 @@ table{
     background-color: $colortable;
   }
   th,td{
-
+    padding-top:5px;
     padding-left: 5px;
     margin: 0;
-    border-bottom : 1px solid black;
-    //border-spacing: 5px;
+    border-bottom : 2px solid black;
+
   }
 }
 
-#cherryb{
-  opacity: 0.3;
-  position:absolute;
-  right: 0;
-  bottom: 0;
-
+.aside{
+  min-width: 10%;
 }
