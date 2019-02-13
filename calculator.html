@@ -3,34 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link href="calculatorStyle.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="calc.js"></script>
+
+
     <title>Calculator</title>
 </head>
 <body>
+    <div class="calc">
+        <div class="answer" id="previous">previous</div>
+        <div class="answer" id="current">current</div>
+        <button type="button" class="num" id="n0">0</button>
+        <button type="button" class="num" id="n1">1</button>
+        <button type="button" class="num" id="n2">2</button>
+        <button type="button" class="num" id="n3">3</button>
+        <button type="button" class="num" id="n4">4</button>
+        <button type="button" class="num" id="n5">5</button>
+        <button type="button" class="num" id="n6">6</button>
+        <button type="button" class="num" id="n7">7</button>
+        <button type="button" class="num" id="n8">8</button>
+        <button type="button" class="num" id="n9">9</button>
+        <button type="button" class="expression" id="elb">(</button>
+        <button type="button" class="expression" id="erb">)</button>
+        <button type="button" class="expression" id="ediv">/</button>
+        <button type="button" class="expression" id="emul">x</button>
+        <button type="button" class="expression" id="emin">-</button>
+        <button type="button" class="expression" id="eplu">+</button>
+        <button type = "button" class="calcu" id="clear">c</button>
+        <button type = "button" class="calcu" id="answer">=</button>
+    </div>
 
-    <button type="button" class="num">0</button>
-    <button type="button" class="num">1</button>
-    <button type="button" class="num">2</button>
-    <button type="button" class="num">3</button>
-    <button type="button" class="num">4</button>
-    <button type="button" class="num">5</button>
-    <button type="button" class="num">6</button>
-    <button type="button" class="num">7</button>
-    <button type="button" class="num">8</button>
-    <button type="button" class="num">9</button>
-    <button type="button" class="expression">(</button>
-    <button type="button" class="expression">)</button>
-    <button type="button" class="expression">/</button>
-    <button type="button" class="expression">x</button>
-    <button type="button" class="expression">-</button>
-    <button type="button" class="expression">+</button>
-    <button type = "button" class="calcu">c</button>
-    <button type = "button" class="calcu">=</button>
+    <script src="calc.js"></script>
 
 </body>
 </html>
