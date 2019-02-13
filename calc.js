@@ -9,16 +9,13 @@ let expequ = ["(",")","/","*","-","+"];
 $("#clear").on("click",function () {
     result='';
     $("#current").text(' ');
-    console.log("Test");
 });
 
 $("#answer").on("click",function () {
     try{
         previous = result;
         result = eval(result);
-        console.log(result);
     }catch(error){
-        console.log("There is an error");
         previous = result + "ERROR";
         result = 0;
     }finally {
@@ -30,7 +27,6 @@ $("#answer").on("click",function () {
 
 $(".num").on("click",function () {
     let input = numinput.indexOf(this.id);
-    console.log(input);
     addSymbols(input);
 
 });
@@ -38,7 +34,6 @@ $(".num").on("click",function () {
 $(".expression").on("click",function () {
     let input = expinput.indexOf(this.id);
     let expr = expequ[input];
-    console.log(expr);
     addSymbols(expr);
 
 });
