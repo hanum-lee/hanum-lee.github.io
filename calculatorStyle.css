@@ -1,3 +1,31 @@
+.container {
+  background-color: darkgrey;
+  width: 600px;
+  min-height: 70%;
+  margin: auto;
+  margin-top: 30px;
+}
+.container .answer {
+  padding: 3px;
+  width: 80%;
+  margin: 5px auto;
+  text-align: right;
+}
 
+#current {
+  background-color: white;
+}
+
+.btn {
+  margin: 5px auto;
+  width: 20%;
+  height: 12.5%;
+  background-color: lightskyblue;
+}
+
+.border {
+  border-style: solid;
+  border-width: 3px;
+}
 
 /*# sourceMappingURL=calculatorStyle.css.map */

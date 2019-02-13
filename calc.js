@@ -2,14 +2,30 @@
 let previous = "";
 let result = "";
 let numinput = ["n0","n1","n2","n3","n4","n5","n6","n7","n8","n9"];
-let expinput = ["elb","erb","ediv","emul","emin","eplu"];
-let expequ = ["(",")","/","*","-","+"];
+let expinput = ["elb","erb","ediv","emul","emin","eplu","edot"];
+let expequ = ["(",")","/","*","-","+","."];
 
 //what happens if there was an error then user cleared it?
 $("#clear").on("click",function () {
-    result='';
-    $("#current").text(' ');
+    try{
+        result = result.slice(0,-1);
+    }catch(error){
+        result = 0;
+    }
+    if(result === ""){
+        result="0";
+    }
+    $("#current").text(result);
+
 });
+
+$("#allclear").on("click",function () {
+    result="";
+    previous="";
+    $("#current").text('0');
+    $("#previous").text("0");
+});
+
 
 $("#answer").on("click",function () {
     try{
