@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a2e39e41-39d4-41ba-9537-66fb661f5365" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/calculator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculatorStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/calculatorStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculatorStyle.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/calculatorStyle.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculatorStyle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/calculatorStyle.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpsc583/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cpsc583/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+            <state relative-caret-position="120">
+              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -31,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calculatorStyle.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="438">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -48,6 +45,7 @@
         <option value="$PROJECT_DIR$/calc.js" />
         <option value="$PROJECT_DIR$/calculator.html" />
         <option value="$PROJECT_DIR$/calculatorStyle.scss" />
+        <option value="$PROJECT_DIR$/cpsc583/index.html" />
       </list>
     </option>
   </component>
@@ -67,8 +65,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="SENG513" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SENG513" type="462c0819:PsiDirectoryNode" />
+              <item name="githubsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="githubsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="githubsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="githubsite" type="462c0819:PsiDirectoryNode" />
+              <item name="cpsc583" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -78,7 +81,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -105,18 +110,28 @@
       <option name="presentableId" value="Default" />
       <updated>1549903833415</updated>
       <workItem from="1549903837911" duration="16857000" />
-      <workItem from="1550249323542" duration="1056000" />
+      <workItem from="1550249323542" duration="1158000" />
+      <workItem from="1554179772173" duration="228000" />
+      <workItem from="1554180199328" duration="22000" />
     </task>
+    <task id="LOCAL-00001" summary="Assignment 3 Added">
+      <created>1554179981996</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554179981996</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17913000" />
+    <option name="totallyTimeSpent" value="18265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="772" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -138,6 +153,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Assignment 3 Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 3 Added" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -155,15 +174,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calculator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        <state relative-caret-position="120">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cpsc583/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cpsc583/d3.v5-9-1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/calculatorStyle.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="438">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
