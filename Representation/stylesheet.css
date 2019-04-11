@@ -1,4 +1,4 @@
-.container {
+.container-fluid {
   font-weight: bold;
   height: auto;
 }
@@ -16,6 +16,21 @@
   min-height: 700px;
   width: 100%;
   height: auto;
+}
+
+#streamerlist {
+  list-style-type: none;
+  padding: 0px;
+  overflow: auto;
+  max-height: 600px;
+  margin: 0px;
+}
+#streamerlist li:hover {
+  background-color: darkgrey;
+}
+
+.selected {
+  background-color: darkgrey;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

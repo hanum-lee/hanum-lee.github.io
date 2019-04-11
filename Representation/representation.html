@@ -4,21 +4,34 @@
     <meta charset="UTF-8">
     <title>Representation</title>
     <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
     <div class="container-fluid">
+
         <div class="row">
-
-            <div class="col-2 sidebar">
-                tests
+            <div class = "col-10">
+                <div class="row">
+                    <div class="content col-12">
+                        <svg id="vis_scatterplot" class="svgbox">
+                        </svg>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 content">
+                        <svg id="vis_individual" class="svgbox">
+                        </svg>
+                    </div>
+                </div>
             </div>
-
-            <div class="col-10 content">
-
-                <svg id="vis_individual" class="svgbox">
-                </svg>
+            <div class="sidebar col-2">
+                <ul id="streamerlist">
+                </ul>
             </div>
 
         </div>
