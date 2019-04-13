@@ -1,6 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik");
 .container-fluid {
+  font-family: "Rubik", sans-serif;
   font-weight: bold;
   height: auto;
+  min-height: 1300px;
+}
+.container-fluid #title {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .sidebar {

@@ -163,6 +163,31 @@ let Barchart = function (){
                 return d[yAxisSelector];
             });
 
+        let legend = this.svgContainer.selectAll('legend')
+            .data(z.domain())
+            .enter().append('g')
+            .attr('class','legend')
+            .attr('transform',function(d,i){
+                return 'translate(50,' + i * 20+')';
+            });
+
+        legend.append('rect')
+            .attr('x',this.width-18)
+            .attr('width',18)
+            .attr('height',18)
+            .style('fill',z)
+            .style('stroke-width',2)
+            .style('stroke','white');
+
+        legend.append('text')
+            .attr('x',this.width - 24)
+            .attr('y',9)
+            .attr('dy','0.35em')
+            .style('text-anchor','end')
+            .style('fill','white')
+            .text(function(d){
+                return d === 1 ? 'Average Viewer': 'Max Viewer';
+            });
 
 
     };
@@ -197,6 +222,9 @@ let Barchart = function (){
             .style("text-anchor", "middle")
             .style("fill","white")
             .text(yLabel);
+
+
+
     };
 
     this.setlayerData = function () {
@@ -222,7 +250,6 @@ let Barchart = function (){
         });
         console.log(layerData);
 
-        console.log(layerData);
 
     };
 
@@ -297,7 +324,7 @@ let scattrplot = function(){
 
         // call our axes inside "group" (<g></g>) objects inside our SVG container
         this.svgContainer.append("g")
-            .attr("transform", `translate(0, ${this.height - margin.bottom })`)
+            .attr("transform", `translate(0, ${this.height - margin.bottom + 10})`)
             .call(this.xAxis);
         this.svgContainer.append("g")
             .attr("transform", `translate(${margin.left}, 0)`)
@@ -309,12 +336,15 @@ let scattrplot = function(){
             .attr("y", (this.height)/2)
             .attr("transform", `rotate(-90, ${margin.left / 3}, ${this.height/2})`)
             .style("text-anchor", "middle")
-            .text(yLabel);
+            .text(yLabel)
+            .style('fill','white');
         this.svgContainer.append("text")
             .attr("x", (this.width)/2)
-            .attr("y", (this.height - margin.top))
+            .attr('with-space-preserve', true)
+            .attr("y", (this.height - margin.top + margin.bottom + 10))
             .style("text-anchor", "middle")
-            .text(xLabel);
+            .text(xLabel)
+            .style('fill','white');
 
     };
 
@@ -336,7 +366,7 @@ let scattrplot = function(){
             .data(this.data)    // use the data we loaded from CSV
             .enter()            // access the data item (e.g., this.data[0])
             .append("circle")   // add the circle element into our SVG container
-            .attr("r", 8)       // change some of the attributes of our circles
+            .attr("r", 7)       // change some of the attributes of our circles
             // function(d){ return d; } -> allows us to access the data we entered
             .attr("cx", function(d){
                 // use the D3 scales we created earlier to map our data values to pixels on screen
@@ -345,14 +375,8 @@ let scattrplot = function(){
             .attr("cy", function(d){
                 return scatterplot.yAxisScale(d[yAxisSelector]);
             })
-            .on("mouseover", function(d) {
-
-            })
-            .on("mouseout", function(d) {
-
-            })
             // change some styling
-            .style("fill", "coral")
+            .style("fill", "#2B4162")
             .style("stroke", "white")
             // add a text to show up on hover
             .append("svg:title")
@@ -361,8 +385,31 @@ let scattrplot = function(){
             });
     };
 
-    this.highlight = function (selectedData) {
-        console.log(selectedData);
+    this.highlight = function (streamer) {
+
+        this.svgContainer.selectAll('circle')
+            .filter(function(d){
+                return d === streamer ? this :null;
+            })
+            .style('stroke','black')
+            .style('stroke-width',2)
+            .style('fill','white')
+            .attr('r',10)
+            .attr('class','selected')
+            .moveToFront();
+
+
+    };
+
+    this.unhighlight = function(streamer){
+        this.svgContainer.selectAll('circle')
+            .filter(function(d){
+                return d === streamer ? this :null;
+            })
+            .attr('r',7)
+            .style('stroke-width',1)
+            .style('stroke','white')
+            .style('fill','#2B4162');
 
     };
 
@@ -390,17 +437,17 @@ function loadData(path){
             $('#streamerlist').append('<li>' + entry[LABELS[0]] + '</li>');
         });
 
-        let gameTitle = getGametitle([data[0],data[1]]);
-        let viewerCount = getViewers(data);
-        let gameData = [
-            {"Game":gameTitle[0],"Viewer": viewerCount[0]},
-            {"Game":gameTitle[1],"Viewer": viewerCount[1]},
-            {"Game":gameTitle[2],"Viewer": viewerCount[2]},
-        ];
-
-        let sortedData = getIndvData([data[0],data[1]]);
-        //vis_barchart.data = sortedData;
-        console.log(gameData);
+        // let gameTitle = getGametitle([data[0],data[1]]);
+        // let viewerCount = getViewers(data);
+        // let gameData = [
+        //     {"Game":gameTitle[0],"Viewer": viewerCount[0]},
+        //     {"Game":gameTitle[1],"Viewer": viewerCount[1]},
+        //     {"Game":gameTitle[2],"Viewer": viewerCount[2]},
+        // ];
+        //
+        // let sortedData = getIndvData([data[0],data[1]]);
+        // //vis_barchart.data = sortedData;
+        // console.log(gameData);
 
 
         // vis_barchart.setupScales(gameTitle, [vis_barchart.height-margin.bottom, margin.top], [0, 50000]);
@@ -412,30 +459,39 @@ function loadData(path){
         //vis_barchart.createBarsTest();
         //vis_barchart.createBarsMax("Game","Max Viewer");
         vis_scatterplot.data = data;
-        vis_scatterplot.setupScales([margin.left, vis_scatterplot.width - margin.right],[0, 30000],
-        [margin.bottom, vis_scatterplot.height- margin.top],[16000,0]);
+        vis_scatterplot.setupScales([margin.left, vis_scatterplot.width - margin.right],[0, 28000],
+        [margin.bottom, vis_scatterplot.height- margin.top],[12000,0]);
         vis_scatterplot.setupAxes(LABELS[2],LABELS[1]);
         vis_scatterplot.createCircles(LABELS[2],LABELS[1]);
 
         $('#streamerlist li').click(function(){
             console.log($(this).text());
             let steamerid = $(this).text();
-            if(selectedStreamer.indexOf((steamerid)) === -1){
+            let index = $(this).index();
+            if(selectedStreamer.indexOf(data[$(this).index()]) === -1){
                 selectedStreamer.push(data[$(this).index()]);
                 $(this).addClass("selected");
-                console.log(data[$(this).index()]);
+                //console.log(data[$(this).index()]);
+                vis_scatterplot.highlight(data[$(this).index()]);
+
 
             }else{
-
+                selectedStreamer.splice(selectedStreamer.indexOf(data[index]),1);
+                console.log(selectedStreamer);
+                $(this).removeClass('selected');
+                vis_scatterplot.unhighlight(data[$(this).index()]);
                 //selectedStreamer.push($(this).text());
             }
 
             vis_barchart.removeEverything();
             sortedData= getIndvData(selectedStreamer);
-
+            let maxtest = d3.max(sortedData,function (d) {
+               return +d["Max Viewer"]
+            });
+            console.log(maxtest);
             gameTitle = getGametitle(sortedData);
 
-            vis_barchart.setupScales(gameTitle, [vis_barchart.height-margin.bottom, margin.top], [0, 50000]);
+            vis_barchart.setupScales(gameTitle, [vis_barchart.height-margin.bottom, margin.top], [0, maxtest * 1.1]);
             vis_barchart.setupAxes(gameTitle.length, "Viewer count");
             vis_barchart.data =sortedData;
 
@@ -493,13 +549,13 @@ function getIndvData(data){
     data.forEach(function(e){
        console.log(e);
         for (let i = 0; i <3 ; i++){
-            let gameandid = e[LABELS[3 + offset*i]] +' ' + e[LABELS[0]];
+            let gameandid = e[LABELS[3 + offset*i]] +'\n' + e[LABELS[0]];
             dataSorted.push(
                 {"Game":gameandid,
                     "Ave Viewer":e[LABELS[3 + offset * i + 1]],
                     "Max Viewer":e[LABELS[3 + offset * i + 2]],
                     //"SteamerID":e[LABELS[0]]
-                    //"Streamed Time" : data[LABELS[3 + offset * i+3]]
+                    "Streamed Time" : data[LABELS[3 + offset * i+3]]
                 }
             );
         }
@@ -511,5 +567,11 @@ function getIndvData(data){
     console.log(dataSorted);
     return dataSorted;
 }
+
+d3.selection.prototype.moveToFront = function() {
+    return this.each(function(){
+        this.parentNode.appendChild(this);
+    });
+};
 
 
