@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="calculatorStyle.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Calculator</title>
+</head>
+<body>
+
+        <div class="container border rounded">
+            <div class="row">
+                <div class="answer" id="previous">0</div>
+            </div>
+            <div class="row">
+                <div class="answer" id="current">0</div>
+            </div>
+
+            <div class="row">
+                <button type="button" class="expression btn" id="elb">(</button>
+                <button type="button" class="expression btn" id="erb">)</button>
+                <button type = "button" class="calcu btn" id="clear">C</button>
+                <button type="button" class="calcu btn" id="allclear">AC</button>
+            </div>
+
+            <div class="row">
+                <button type="button" class="num btn" id="n7">7</button>
+                <button type="button" class="num btn" id="n8">8</button>
+                <button type="button" class="num btn" id="n9">9</button>
+                <button type="button" class="expression btn" id="ediv">/</button>
+            </div>
+
+            <div class="row">
+                <button type="button" class="num btn" id="n4">4</button>
+                <button type="button" class="num btn" id="n5">5</button>
+                <button type="button" class="num btn" id="n6">6</button>
+                <button type="button" class="expression btn" id="emul">x</button>
+            </div>
+            <div class="row">
+                <button type="button" class="num btn" id="n1">1</button>
+                <button type="button" class="num btn" id="n2">2</button>
+                <button type="button" class="num btn" id="n3">3</button>
+                <button type="button" class="expression btn" id="emin">-</button>
+
+            </div>
+            <div class="row">
+                <button type="button" class="num btn" id="n0">0</button>
+                <button type="button" class="expression btn" id="edot">.</button>
+                <button type = "button" class="calcu btn" id="answer">=</button>
+                <button type="button" class="expression btn" id="eplu">+</button>
+            </div>
+        </div>
+
+    <script src="calc.js"></script>
+
+</body>
+</html>

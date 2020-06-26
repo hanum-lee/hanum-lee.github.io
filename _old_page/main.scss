@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Josefin+Sans');
+$font-title: 'Gloria Hallelujah', cursive;
+$font-main: 'Josefin Sans', sans-serif;
+
+$color1 : #374B4A;
+$color2 : #526760;
+$color3 : #8B8BAE;
+$color4 : #88D9E6;
+$color5 : #C5FFFD;
+$colortable:#647E99;
+$backgroundcol: #200775;
+$backgroundcol2: #B5380E;
+$fontcol:#D9CFC1;
+$colormain: #7A9ABA;
+$colorart: #E5DCB0;
+
+
+body{
+  background: linear-gradient(to right bottom, $backgroundcol, $backgroundcol2 95%) no-repeat;
+
+}
+
+h1 {
+  font-family: $font-title;
+
+}
+
+nav{
+  width:10%;
+
+
+  ul{
+    border-radius: 7px;
+    list-style-type: none;
+    background-color: $color3;
+    padding:0;
+    margin:0;
+    border: 1px solid $color3;
+    li{
+
+      a{
+        text-decoration: none;
+        color:$color1;
+        text-align:center;
+        padding: 8px;
+        display:block;
+
+      }
+      a:hover{
+        background-color:$color2;
+        color:white;
+        border-radius: 5px;
+      }
+      a:visited{
+        color:$color1;
+
+      }
+
+    }
+  }
+
+
+}
+.main{
+  font-size: 1.2em;
+  color: $colorart;
+  display:flex;
+  flex-flow:row;
+  border-radius: 10px;
+  min-height: 750px;
+  font-family: $font-main;
+}
+
+.container{
+  background-color: #7A9ABA;
+  width:90%;
+  margin-left: 18px;
+  margin-right:18px;
+  border-radius: 8px;
+  padding:10px;
+  opacity: 0.8;
+  .text{
+    opacity: 1.2;
+  }
+}
+
+.active{
+  background-color: $color2;
+  border-radius: 5px;
+
+}
+.link{
+  text-decoration: none;
+}
+header, footer{
+  color: $fontcol;
+  display:block;
+  min-height: 80px;
+  text-align: center;
+}
+
+table{
+  border-collapse: collapse;
+
+  tr:nth-of-type(even){
+    background-color: $colortable;
+  }
+  th,td{
+    padding-top:5px;
+    padding-left: 5px;
+    margin: 0;
+    border-bottom : 2px solid black;
+
+  }
+}
+
+.aside{
+  min-width: 10%;
+}
