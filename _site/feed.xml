@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-26T18:01:59-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Daniel Lee</title><subtitle>Your Site Description
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-28T02:22:33-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Daniel Lee</title><subtitle>Your Site Description
 </subtitle><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><entry><title type="html">testing</title><link href="http://localhost:4000/2020/06/26/testing.html" rel="alternate" type="text/html" title="testing" /><published>2020-06-26T00:00:00-06:00</published><updated>2020-06-26T00:00:00-06:00</updated><id>http://localhost:4000/2020/06/26/testing</id><content type="html" xml:base="http://localhost:4000/2020/06/26/testing.html">&lt;p&gt;testing whether this is working.&lt;/p&gt;
 
 &lt;p&gt;Let see if this works as well. how long can this support.&lt;/p&gt;
@@ -16,7 +16,43 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;What happens if I do this&lt;/p&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="test" /><summary type="html">testing whether this is working. Let see if this works as well. how long can this support.</summary></entry><entry><title type="html">Welcome</title><link href="http://localhost:4000/2018/07/01/welcome.html" rel="alternate" type="text/html" title="Welcome" /><published>2018-07-01T00:00:00-06:00</published><updated>2018-07-01T00:00:00-06:00</updated><id>http://localhost:4000/2018/07/01/welcome</id><content type="html" xml:base="http://localhost:4000/2018/07/01/welcome.html">&lt;p&gt;If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost:&lt;/p&gt;
+&lt;p&gt;What happens if I do this&lt;/p&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="test" /><summary type="html">testing whether this is working. Let see if this works as well. how long can this support.</summary></entry><entry><title type="html">CPSC581 Project 0, Button</title><link href="http://localhost:4000/2019/02/04/CPSC581P0.html" rel="alternate" type="text/html" title="CPSC581 Project 0, Button" /><published>2019-02-04T00:00:00-07:00</published><updated>2019-02-04T00:00:00-07:00</updated><id>http://localhost:4000/2019/02/04/CPSC581P0</id><content type="html" xml:base="http://localhost:4000/2019/02/04/CPSC581P0.html">&lt;p&gt;For Project 0 of Human Computer Interaction course, we are creating a button which represents something or someone.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;We decided to represent an artist called “John Pollock”. Our group went to interview different people and came back to see who will be best to represent with a button.&lt;/p&gt;
+
+&lt;p&gt;As an indvidual task, I interviewed Sydney, instructor of class, for her traits.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;She likes her dog&lt;/li&gt;
+  &lt;li&gt;She is researching fashion-related technology&lt;/li&gt;
+  &lt;li&gt;She likes drawing, reading, and yoga&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;sketching&quot;&gt;Sketching&lt;/h1&gt;
+&lt;h2 id=&quot;initial-sketches&quot;&gt;Initial Sketches:&lt;/h2&gt;
+
+&lt;p&gt;(Insert sketches)&lt;/p&gt;
+
+&lt;p&gt;After discussing with teammates and presenting to classmates, we decided to represent an artist, John Pollock.&lt;/p&gt;
+
+&lt;h2 id=&quot;final-sketches&quot;&gt;Final Sketches:&lt;/h2&gt;
+
+&lt;p&gt;Our final sketches are on “Artist Button”&lt;/p&gt;
+
+&lt;p&gt;(Insert sketches)&lt;/p&gt;
+
+&lt;h1 id=&quot;final-product&quot;&gt;Final Product&lt;/h1&gt;
+
+&lt;p&gt;(Insert a picture)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/TeNsiDFyrBE&quot;&gt;Demo Video&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://codepen.io/mkurapov/pen/RvVJvV&quot;&gt;John Pollock Button Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;The button fits the design brief because it represents the distinct art style of the artist.If anyone knows about the art style of him, it would be obvious to notice that we are trying to represent him.&lt;/p&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="Human-Computer-Interaction" /><category term="Javascript" /><summary type="html">For Project 0 of Human Computer Interaction course, we are creating a button which represents something or someone.</summary></entry><entry><title type="html">Welcome</title><link href="http://localhost:4000/2018/07/01/welcome.html" rel="alternate" type="text/html" title="Welcome" /><published>2018-07-01T00:00:00-06:00</published><updated>2018-07-01T00:00:00-06:00</updated><id>http://localhost:4000/2018/07/01/welcome</id><content type="html" xml:base="http://localhost:4000/2018/07/01/welcome.html">&lt;p&gt;If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost:&lt;/p&gt;
 
 &lt;p&gt;You may want to &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/configuration&quot;&gt;config the site&lt;/a&gt; or &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/writing-posts&quot;&gt;writing a post&lt;/a&gt; next. Please feel free to &lt;a href=&quot;https://github.com/kitian616/jekyll-TeXt-theme/issues&quot;&gt;create an issue&lt;/a&gt; or &lt;a href=&quot;mailto:kitian616@outlook.com&quot;&gt;send me email&lt;/a&gt; if you have any questions.&lt;/p&gt;
 
