@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-28T02:28:53-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Daniel Lee</title><subtitle>Your Site Description
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-28T03:03:49-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Daniel Lee</title><subtitle>Your Site Description
 </subtitle><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><entry><title type="html">testing</title><link href="http://localhost:4000/2020/06/26/testing.html" rel="alternate" type="text/html" title="testing" /><published>2020-06-26T00:00:00-06:00</published><updated>2020-06-26T00:00:00-06:00</updated><id>http://localhost:4000/2020/06/26/testing</id><content type="html" xml:base="http://localhost:4000/2020/06/26/testing.html">&lt;p&gt;testing whether this is working.&lt;/p&gt;
 
 &lt;p&gt;Let see if this works as well. how long can this support.&lt;/p&gt;
@@ -16,14 +16,42 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;What happens if I do this&lt;/p&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="test" /><summary type="html">testing whether this is working. Let see if this works as well. how long can this support.</summary></entry><entry><title type="html">CPSC581 (Human Computer Interaction II) Project 1, Unlocking Mechanism</title><link href="http://localhost:4000/2019/02/25/CPSC581P1.html" rel="alternate" type="text/html" title="CPSC581 (Human Computer Interaction II) Project 1, Unlocking Mechanism" /><published>2019-02-25T00:00:00-07:00</published><updated>2019-02-25T00:00:00-07:00</updated><id>http://localhost:4000/2019/02/25/CPSC581P1</id><content type="html" xml:base="http://localhost:4000/2019/02/25/CPSC581P1.html">&lt;p&gt;We are creating a new methods of unlocking phones with touch input and sensory input.&lt;/p&gt;
+&lt;p&gt;What happens if I do this&lt;/p&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="test" /><summary type="html">testing whether this is working. Let see if this works as well. how long can this support.</summary></entry><entry><title type="html">CPSC581 (Human Computer Interaction II) Project 2, Arduino</title><link href="http://localhost:4000/2019/03/18/CPSC581P2.html" rel="alternate" type="text/html" title="CPSC581 (Human Computer Interaction II) Project 2, Arduino" /><published>2019-03-18T00:00:00-06:00</published><updated>2019-03-18T00:00:00-06:00</updated><id>http://localhost:4000/2019/03/18/CPSC581P2</id><content type="html" xml:base="http://localhost:4000/2019/03/18/CPSC581P2.html">&lt;p&gt;We created a posture detection machine with Arduino to solve everyday problem.&lt;/p&gt;
+
+&lt;!--more--&gt;
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="Human-Computer-Interaction" /><category term="Arudino" /><summary type="html">We created a posture detection machine with Arduino to solve everyday problem.</summary></entry><entry><title type="html">CPSC581 (Human Computer Interaction II) Project 1, Unlocking Mechanism</title><link href="http://localhost:4000/2019/02/25/CPSC581P1.html" rel="alternate" type="text/html" title="CPSC581 (Human Computer Interaction II) Project 1, Unlocking Mechanism" /><published>2019-02-25T00:00:00-07:00</published><updated>2019-02-25T00:00:00-07:00</updated><id>http://localhost:4000/2019/02/25/CPSC581P1</id><content type="html" xml:base="http://localhost:4000/2019/02/25/CPSC581P1.html">&lt;p&gt;We are creating a new methods of unlocking phones with touch input and sensory input.&lt;/p&gt;
 
 &lt;!--more--&gt;
 &lt;hr /&gt;
 
 &lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
 
-&lt;p&gt;We are implementing&lt;/p&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="Human-Computer-Interaction" /><category term="Javascript" /><summary type="html">We are creating a new methods of unlocking phones with touch input and sensory input.</summary></entry><entry><title type="html">CPSC581 (Human Computer Interaction II) Project 0, Button</title><link href="http://localhost:4000/2019/02/04/CPSC581P0.html" rel="alternate" type="text/html" title="CPSC581 (Human Computer Interaction II) Project 0, Button" /><published>2019-02-04T00:00:00-07:00</published><updated>2019-02-04T00:00:00-07:00</updated><id>http://localhost:4000/2019/02/04/CPSC581P0</id><content type="html" xml:base="http://localhost:4000/2019/02/04/CPSC581P0.html">&lt;p&gt;For Project 0 of Human Computer Interaction course, we are creating a button which represents something or someone.
+&lt;p&gt;We are implementing a new way of unlocking phone with touch input and sensory input to prevent accidental unlocking. The methods that our group came up with are “Clock” method touch mechanism and “French word” method for sensory mechanism.&lt;/p&gt;
+
+&lt;p&gt;Clock method is when user have to set the virtual clock hands that appear in random position to current time. If the clock hands&lt;/p&gt;
+
+&lt;p&gt;French word method is when user have to say the word appear on the screen. If the phone recognize the word said corrently, the phone unlocks.&lt;/p&gt;
+
+&lt;h1 id=&quot;sketches&quot;&gt;Sketches&lt;/h1&gt;
+
+&lt;h2 id=&quot;initial-sketches&quot;&gt;Initial Sketches&lt;/h2&gt;
+&lt;p&gt;(Insert sketches)&lt;/p&gt;
+
+&lt;p&gt;After team discussion, we decided to go with the “Clock” and “French Word” idea.&lt;/p&gt;
+
+&lt;h2 id=&quot;final-sketches&quot;&gt;Final Sketches&lt;/h2&gt;
+&lt;p&gt;(Insert sketches)&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/XkQ-qT2bu5s&quot;&gt;Demo Video&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hfirdaus/unlockme&quot;&gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The unlock mechanism fits the design specification of preventing accidental unlocking because, with the “Clock” method, the user has to aim for the specific time shown in the clock. This prevents accidental unlock because it is hard for accidental unlock to match those two consecutive timing.&lt;/p&gt;
+
+&lt;p&gt;The “French word” prevents accidental unlock because it has to recognize the word said by the user which is a specific word on the screen which is in French. Since we are in living in English environment, it is rare for someone to say the exact word that is on the screen.&lt;/p&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="Human-Computer-Interaction" /><category term="Javascript" /><summary type="html">We are creating a new methods of unlocking phones with touch input and sensory input.</summary></entry><entry><title type="html">CPSC581 (Human Computer Interaction II) Project 0, Button</title><link href="http://localhost:4000/2019/02/04/CPSC581P0.html" rel="alternate" type="text/html" title="CPSC581 (Human Computer Interaction II) Project 0, Button" /><published>2019-02-04T00:00:00-07:00</published><updated>2019-02-04T00:00:00-07:00</updated><id>http://localhost:4000/2019/02/04/CPSC581P0</id><content type="html" xml:base="http://localhost:4000/2019/02/04/CPSC581P0.html">&lt;p&gt;For Project 0 of Human Computer Interaction course, we are creating a button which represents something or someone.
 &lt;!--more--&gt;
 —&lt;/p&gt;
 
