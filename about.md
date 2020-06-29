@@ -57,10 +57,20 @@ You can contact me in many ways, but best will be through [email](mailto:hanum.l
 ## Technical Skills
 ### Programming Languages
 * Python
+  * Most Confident Language
+  * Used to practice machine learning skills
+  * Used for problem solving
 * C#
+  * Used to create games with Unity and Monogames Framework
+  * Used to create Augmented Reality application
+  * Used to create Haptic Feedback program
 * Javascript
+  * Used to create UI/UX
+  * Used to develop back-end with express framework
 * Java
+  * Used to do assignments
 * HTML, CSS
+* Arduino
 * Swift
 * C++
 * SQL
@@ -83,12 +93,50 @@ You can contact me in many ways, but best will be through [email](mailto:hanum.l
 * Unity
 * Git
 * Jetbrain
+  * Webstorm
+  * IntelliJ
 * Amazon AWS
   * AWS Elastic Beanstalk
   * AWS Relational Database Service
   * AWS S3
+* XCode
+* Microsoft Office Suite
+* Eclipse
+* Oracle Virtual Box
+* Raspberry Pi
 
+### Operating System
+* Windows 10
+* Mac OS X
+* Linux
+  * Ubuntu
+  * Raspberrian
 
+---
 
+# Others
+## Certificates
+* 3rd Degree Black Belt in Tae Kwon Do
+* N2 Level in Japanese Language Proficiency Test
 
+## Languages
+* English - Fluent
+* Korean - Native
+* Japanese - Intermidiate
 
+## Interst
+* **Technology**
+  * Machine Learning
+  * Augmented Reality
+  * Virtual Realiy
+  * Mixed Reality
+  * WebXR
+  * Biomedical Engeineering
+* **Music**
+  * Piano
+  * Flute
+  * Drum
+  * Guitar
+* **Sport**
+  * Martial Arts
+  * Bouldering
