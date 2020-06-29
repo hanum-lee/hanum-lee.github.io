@@ -18,6 +18,7 @@ We are developing a tool which can visually represent a song and manipulate elem
 ## Challenges
 * Not much experience with developing an augmented reality application.
 * Make the interaction with the object natural
+* Make the visual natural enough for users
 
 
 # Conclusion
