@@ -13,7 +13,7 @@ My name is Daniel (Hanum) Lee, I graduated from University of Calgary with Major
 ## Contact
 You can contact me in many ways, but best will be through [email](mailto:hanum.lee1@gmail.com). You can visit my [Github](https://github.com/hanum-lee) page to see previous works. I have [LinkedIn](https://www.linkedin.com/in/daniel-hanum-lee-825549187/) page as well. 
 
-[Download Resume]
+[Download Resume](_files/Resume_200224_HCI.pdf)
 
 ---
 # Formal Education
