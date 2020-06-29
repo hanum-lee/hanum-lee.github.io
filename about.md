@@ -1,74 +1,94 @@
 ---
 layout: article
-titles:
-  # @start locale config
-  en      : &EN       About
-  en-GB   : *EN
-  en-US   : *EN
-  en-CA   : *EN
-  en-AU   : *EN
-  zh-Hans : &ZH_HANS  关于
-  zh      : *ZH_HANS
-  zh-CN   : *ZH_HANS
-  zh-SG   : *ZH_HANS
-  zh-Hant : &ZH_HANT  關於
-  zh-TW   : *ZH_HANT
-  zh-HK   : *ZH_HANT
-  ko      : &KO       소개
-  ko-KR   : *KO
-  fr      : &FR       À propos
-  fr-BE   : *FR
-  fr-CA   : *FR
-  fr-CH   : *FR
-  fr-FR   : *FR
-  fr-LU   : *FR
-  # @end locale config
+titles: About
 key: page-about
+aside:
+    toc: true
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+# Introduction
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+My name is Daniel (Hanum) Lee, I graduated from University of Calgary with Major in Computer Scince. I did concentration in Human-Computer Science.
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
+## Contact
+You can contact me in many ways, but best will be through [email](mailto:hanum.lee1@gmail.com). You can visit my [Github](https://github.com/hanum-lee) page to see previous works. I have [LinkedIn](https://www.linkedin.com/in/daniel-hanum-lee-825549187/) page as well. 
 
-## Features
+[Download Resume]
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+---
+# Formal Education
+## Bachelor of Science at the University of Calgary (2015-2020)
+### Major in Computer Science
+  * Concentration in Human-Computer Interaction
 
-## Skins
+--- 
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+# Experience
+## Work Experiences
+* **Advertiise** - Internship (February 2020)
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
+  * Quality Assurance and Full Stack web Application Development.
 
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
+* **Foothills Hospital** - Hotchkiss Brain Institute Summer Student Research (May - August 2017)
 
-### Highlight Theme
+  * Developed a program for the research laboratory using C# to measure the movement of a Styrofoam ball in the x-y coordinate system to minimize human error.
+  * Troubleshooted the program by analyzing the code and research potential solutions.
+  * Discussed with platform director on a weekly basis about the progress and technical issues with the program.
 
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
+## Volunteer Experiences
+* **Japanese Teaching Assistant** University of Calgary  (September 2018 - August 2019)
 
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+
+## Competition
+* **NeuroNexus 2020** (June-Augest 2020)
+  * Developed 
+* **Alberta District Japanese Language Speech Contest** (March 2020)
+  * Advanced Category
+* **Calgary Hacks 2020** (February 2020)
+  * Developed web application for student to find a study group and and favor around the campus
+* **Innovation for Health 2019** (Novemeber 2019)
+
+* **Alberta District Japanese Language Speech Contest** (March 2019)
+  * Advanced Category
+
+---
+
+# Skills
+## Technical Skills
+### Programming Languages
+* Python
+* C#
+* Javascript
+* Java
+* HTML, CSS
+* Swift
+* C++
+* SQL
+* Assembly
+* Linux Shells
+* Latex
+
+### APIs and Libraries
+* TensorFlow
+* Numpy
+* Pandas
+* Express
+* Django
+* MySQL
+
+
+### Tools and Applications
+* Visual Studio
+* Visual Studio Code
+* Unity
+* Git
+* Jetbrain
+* Amazon AWS
+  * AWS Elastic Beanstalk
+  * AWS Relational Database Service
+  * AWS S3
+
+
+
+
+
