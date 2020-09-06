@@ -20,11 +20,15 @@ You can contact me in many ways, but best will be through [email](mailto:hanum.l
 ## Bachelor of Science at the University of Calgary (2015-2020)
 ### Major in Computer Science
   * Concentration in Human-Computer Interaction
+  * 2019/2020 Science Dean's List
 
 --- 
 
 # Experience
 ## Work Experiences
+* **8 Bit Cortex**
+  * Worked as Software Developer
+  * Continuation of team from NeuroNexus 2020
 * **Advertiise** - Internship (February 2020)
 
   * Quality Assurance and Full Stack web Application Development.
@@ -41,12 +45,15 @@ You can contact me in many ways, but best will be through [email](mailto:hanum.l
 
 ## Competition
 * **NeuroNexus 2020** (June-Augest 2020)
-  * Developed 
+  * Developed web application for gamifying mental health
+  * Developed web application where clinician can communicate with patients with verbal or developmental disorder in real time with minimal assistance of care taker
+    * Team leader
 * **Alberta District Japanese Language Speech Contest** (March 2020)
   * Advanced Category
 * **Calgary Hacks 2020** (February 2020)
   * Developed web application for student to find a study group and and favor around the campus
 * **Innovation for Health 2019** (Novemeber 2019)
+  * Developed augmented reality game with Unity on HoloLens
 
 * **Alberta District Japanese Language Speech Contest** (March 2019)
   * Advanced Category
@@ -60,6 +67,7 @@ You can contact me in many ways, but best will be through [email](mailto:hanum.l
   * Most Confident Language
   * Used to practice machine learning skills
   * Used for problem solving
+  * Django famework
 * C#
   * Used to create games with Unity and Monogames Framework
   * Used to create Augmented Reality application
