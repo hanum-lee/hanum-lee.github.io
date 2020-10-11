@@ -25,10 +25,11 @@ We are developing a tool which can visually represent a song and manipulate elem
 
 ## Final Product
 
-(Insert photos)
 
 [Github Repository](https://github.com/hanum-lee/DJLoveLace)
 
 [Demo Video](https://youtu.be/CzY47MGLqWU)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CzY47MGLqWU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Final Report](https://docs.google.com/document/d/1vURsnf8XujDTIs7-akQPw0tFCrqtLhrbKNwQ-3yl0CE/edit?usp=sharing)
