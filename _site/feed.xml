@@ -1,27 +1,274 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-28T03:03:49-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Daniel Lee</title><subtitle>Your Site Description
-</subtitle><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><entry><title type="html">testing</title><link href="http://localhost:4000/2020/06/26/testing.html" rel="alternate" type="text/html" title="testing" /><published>2020-06-26T00:00:00-06:00</published><updated>2020-06-26T00:00:00-06:00</updated><id>http://localhost:4000/2020/06/26/testing</id><content type="html" xml:base="http://localhost:4000/2020/06/26/testing.html">&lt;p&gt;testing whether this is working.&lt;/p&gt;
-
-&lt;p&gt;Let see if this works as well. how long can this support.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-02T22:39:44-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Daniel Lee</title><subtitle>Your Site Description
+</subtitle><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><entry><title type="html">DJLOVELace</title><link href="http://localhost:4000/2020/04/19/DJLoveLace.html" rel="alternate" type="text/html" title="DJLOVELace" /><published>2020-04-19T00:00:00-06:00</published><updated>2020-04-19T00:00:00-06:00</updated><id>http://localhost:4000/2020/04/19/DJLoveLace</id><content type="html" xml:base="http://localhost:4000/2020/04/19/DJLoveLace.html">&lt;p&gt;We created a tool which can manipulate elements of music visually.&lt;/p&gt;
 
 &lt;!--more--&gt;
-
 &lt;hr /&gt;
-&lt;h2 id=&quot;project&quot;&gt;Project&lt;/h2&gt;
-&lt;h3 id=&quot;testing&quot;&gt;testing&lt;/h3&gt;
 
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;We are developing a tool which can visually represent a song and manipulate element of the song with objects that we are familair with.&lt;/p&gt;
+
+&lt;h2 id=&quot;objective&quot;&gt;Objective&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;this text should be in detail detail.&lt;/li&gt;
-  &lt;li&gt;so only on the first bullets right&lt;/li&gt;
+  &lt;li&gt;Develope an augmented reality application&lt;/li&gt;
+  &lt;li&gt;Think about the possible interaction with real world&lt;/li&gt;
+  &lt;li&gt;Visualize elements of the music&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&quot;challenges&quot;&gt;Challenges&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Not much experience with developing an augmented reality application.&lt;/li&gt;
+  &lt;li&gt;Make the interaction with the object natural&lt;/li&gt;
+  &lt;li&gt;Make the visual natural enough for users&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;h2 id=&quot;final-product&quot;&gt;Final Product&lt;/h2&gt;
+
+&lt;p&gt;(Insert photos)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hanum-lee/DJLoveLace&quot;&gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/CzY47MGLqWU&quot;&gt;Demo Video&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1vURsnf8XujDTIs7-akQPw0tFCrqtLhrbKNwQ-3yl0CE/edit?usp=sharing&quot;&gt;Final Report&lt;/a&gt;&lt;/p&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="Human-Computer-Interaction" /><category term="Augmented-Reailty" /><category term="C#" /><category term="Unity" /><summary type="html">We created a tool which can manipulate elements of music visually.</summary></entry><entry><title type="html">Sweety Home</title><link href="http://localhost:4000/2020/04/07/CPSC599TUIP4.html" rel="alternate" type="text/html" title="Sweety Home" /><published>2020-04-07T00:00:00-06:00</published><updated>2020-04-07T00:00:00-06:00</updated><id>http://localhost:4000/2020/04/07/CPSC599TUIP4</id><content type="html" xml:base="http://localhost:4000/2020/04/07/CPSC599TUIP4.html">&lt;p&gt;I made a slipper that heats and lights up when another pair is worn.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
 &lt;hr /&gt;
 
-&lt;p&gt;What happens if I do this&lt;/p&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="test" /><summary type="html">testing whether this is working. Let see if this works as well. how long can this support.</summary></entry><entry><title type="html">CPSC581 (Human Computer Interaction II) Project 2, Arduino</title><link href="http://localhost:4000/2019/03/18/CPSC581P2.html" rel="alternate" type="text/html" title="CPSC581 (Human Computer Interaction II) Project 2, Arduino" /><published>2019-03-18T00:00:00-06:00</published><updated>2019-03-18T00:00:00-06:00</updated><id>http://localhost:4000/2019/03/18/CPSC581P2</id><content type="html" xml:base="http://localhost:4000/2019/03/18/CPSC581P2.html">&lt;p&gt;We created a posture detection machine with Arduino to solve everyday problem.&lt;/p&gt;
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;When I think of the concept of “hygge” I think of:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Connection&lt;/li&gt;
+  &lt;li&gt;Home&lt;/li&gt;
+  &lt;li&gt;Warmth&lt;/li&gt;
+  &lt;li&gt;Sharing as well
+    &lt;ul&gt;
+      &lt;li&gt;Spending time with others you want&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I wanted to make something that warms you up and the others, something that you can be worn at home and gives the presence to another person that they are being together.&lt;/p&gt;
+
+&lt;p&gt;I made slippers which heat and light up when both pairs are worn at the same time. I used DIY heaters and force sensors. DIY heater is just pieces of foil connected together (picture in visual section). The heat is produced by the current running through the resistance of the foil. It is under a piece of paper and does not contact feet directly to prevent electrocuting the user. The DIY pressure sensor is made from conductive foam. There conductivity of the foam changes when the pressure is applied to the foam and it detects the change of the amount of the current flow in the circuit. I made 2 slippers to demonstrate that both of the pressure sensors have to be activated in order for the LEDs and heater to activate.&lt;/p&gt;
+
+&lt;p&gt;The possible application for this project is when you are at home and the person that you want to feel hygge with just came back, you can get an indication by LEDs that the other person just came home. You can also warm them up physically by heater activating as well as welcoming them. Since the heater on your slippers will be activating, it will also warm you up.&lt;/p&gt;
+
+&lt;h1 id=&quot;sketches&quot;&gt;Sketches&lt;/h1&gt;
+&lt;h2 id=&quot;inital-sketches&quot;&gt;Inital Sketches&lt;/h2&gt;
+&lt;p&gt;(Insert Sketches)&lt;/p&gt;
+
+&lt;h2 id=&quot;circuit-schematics&quot;&gt;Circuit Schematics&lt;/h2&gt;
+&lt;p&gt;(Insert Schematics)&lt;/p&gt;
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+&lt;h2 id=&quot;visual-of-final-product&quot;&gt;Visual of Final Product&lt;/h2&gt;
+&lt;p&gt;(Insert Photos)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/mq1OENraD0Q&quot;&gt;Demo Video&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;final-product&quot;&gt;Final Product&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/hanum-lee/Tangible-Interface/tree/master/FInal%20Project&quot;&gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.instructables.com/id/How-to-Make-a-Ridiculously-Cheap-Analog-Pressure-S/&quot;&gt;DIY Pressure Sensor with Conductive foam&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.yavilevich.com/2017/10/40-cent-diy-pressure-sensor-based-on-a-capacitive-principle/&quot;&gt;DIY Pressure Sensor with aluminum foil&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="Human-Computer-Interaction" /><category term="Arduino" /><category term="CPSC599" /><category term="TUI" /><summary type="html">I made a slipper that heats and lights up when another pair is worn.</summary></entry><entry><title type="html">Git-Tama</title><link href="http://localhost:4000/2020/03/12/CPSC599TUIP3.html" rel="alternate" type="text/html" title="Git-Tama" /><published>2020-03-12T00:00:00-06:00</published><updated>2020-03-12T00:00:00-06:00</updated><id>http://localhost:4000/2020/03/12/CPSC599TUIP3</id><content type="html" xml:base="http://localhost:4000/2020/03/12/CPSC599TUIP3.html">&lt;p&gt;We created a visual representation of git commits that happens in one git repository using marbles and water.&lt;/p&gt;
 
 &lt;!--more--&gt;
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="Human-Computer-Interaction" /><category term="Arudino" /><summary type="html">We created a posture detection machine with Arduino to solve everyday problem.</summary></entry><entry><title type="html">CPSC581 (Human Computer Interaction II) Project 1, Unlocking Mechanism</title><link href="http://localhost:4000/2019/02/25/CPSC581P1.html" rel="alternate" type="text/html" title="CPSC581 (Human Computer Interaction II) Project 1, Unlocking Mechanism" /><published>2019-02-25T00:00:00-07:00</published><updated>2019-02-25T00:00:00-07:00</updated><id>http://localhost:4000/2019/02/25/CPSC581P1</id><content type="html" xml:base="http://localhost:4000/2019/02/25/CPSC581P1.html">&lt;p&gt;We are creating a new methods of unlocking phones with touch input and sensory input.&lt;/p&gt;
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;One of the personal data that we thought was interesting to visualize was productivity. By comparing and competing with other teammates, this might motivates individuals to be more productive. We chose contribution to Github repository as our personal data. We will be showing the contribution to the repository by each user.&lt;/p&gt;
+
+&lt;p&gt;Our project has a listener where it listens to a Github repository, and when there is a commit from a user, it detects who and how many addition and deletion has been done by that user. Depending on the commit size, the listener determines the slope of the ramp. Then the listener sends a string to Arduino with information of which user committed and the slope of the ramp. When string is received in Arduino, it parses the string and activates the servo according to which the user has committed. The slope of the ramp is adjusted by a servo near where the marble exits from the machine. There is rack and pinion attached to a servo which controls the flow of the marble. While the marble is being fired, there are illumination from LED strips depending on which user has committed.&lt;/p&gt;
+
+&lt;p&gt;Each of the marble shooters represents a different user and the marbles it shoots represents the commits that user has made. This physicalization presents the data in several ways. First to an active viewer, it communicates each commit through the firing of the marbles. For a passive viewer, the physicalization produces an audible water dropping sound as well as ambient light. Finally for viewers in the future, the marbles leave tangible history of the commits in the physicalization.&lt;/p&gt;
+
+&lt;h1 id=&quot;sketches&quot;&gt;Sketches&lt;/h1&gt;
+&lt;h2 id=&quot;initial-sketches&quot;&gt;Initial Sketches&lt;/h2&gt;
+&lt;p&gt;(Insert Sketches)&lt;/p&gt;
+&lt;h2 id=&quot;circuit-schematics&quot;&gt;Circuit Schematics&lt;/h2&gt;
+&lt;p&gt;(Insert Schematics)&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+&lt;h2 id=&quot;visual-of-the-product&quot;&gt;Visual of the Product&lt;/h2&gt;
+&lt;p&gt;(Insert Photos)&lt;/p&gt;
+
+&lt;h2 id=&quot;final-product&quot;&gt;Final Product&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/8E-YQUwtcw8&quot;&gt;Demo Video&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/colinauyeung/Git-Tama&quot;&gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;reference-materials&quot;&gt;Reference Materials&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://forum.arduino.cc/index.php?topic=225329.msg1810764#msg1810764&quot;&gt;PC to Arduino Communication&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://forum.arduino.cc/index.php?topic=396450.0&quot;&gt;Serial Input Basics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://forum.arduino.cc/index.php?topic=534852.0&quot;&gt;Reading text files from PC to Arduino&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.thingiverse.com/thing:21206&quot;&gt;Rack and Pinion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.arduino.cc/en/tutorial/sweep&quot;&gt;Sweeps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.github.com/v3/&quot;&gt;Github API&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="Human-Computer-Interaction" /><category term="Arduino" /><category term="Python" /><category term="CPSC599" /><category term="TUI" /><summary type="html">We created a visual representation of git commits that happens in one git repository using marbles and water.</summary></entry><entry><title type="html">Ardui-Bone</title><link href="http://localhost:4000/2020/02/13/CPSC599TUIP2.html" rel="alternate" type="text/html" title="Ardui-Bone" /><published>2020-02-13T00:00:00-07:00</published><updated>2020-02-13T00:00:00-07:00</updated><id>http://localhost:4000/2020/02/13/CPSC599TUIP2</id><content type="html" xml:base="http://localhost:4000/2020/02/13/CPSC599TUIP2.html">&lt;p&gt;We made a trumbone with arduino and various sensory input. We used gyroscope, pressure dectector and range sensor.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;For this assignment, we were tasked to take physical inputs and convert them into sounds for a new musical instrument or expressive musical interface. We played around with multiple ideas; a drawing pad with ultrasonic sensors and a pen with an accelerometer attached so that when you draw you make music too, a MIDI trumpet using buttons and wind pressure to act as a MIDI controller, among other ideas. We decided that we wanted to use distance to encourage some sort of big movement and we also wanted to be able to actually play music with some level of precision. We decided on an Arduino trombone. This device utilizes three sensors; a sound sensor, ultrasonic sensor and a gyroscope. We drilled a hole for the mouthpiece and a connected smaller hole on the side for the sound sensor to pick up the buzzing more precisely. We then attached an ultrasonic sensor to a cutout in acrylic to hold it in place which bounces the signal off another piece of acrylic attached by a single screw for adjustable holds. We wanted to add an interesting interaction to the Ardui-Bone as well so that it wasn’t simply a tech trombone. We utilize the gyroscope to change octaves by orienting the whole device up or down. Further implementation could utilize a MIDI module for mapping to better sounds in a DAW, using a wind pressure sensor for volume variability and better housing. We think this stands out because it works like an actual instrument, meaning you can actually play music with some practice, it’s fun to use (a trombone is an adult slide whistle), and it utilizes multiple sensors and it adds a new way to interact with a preexisting instrument.&lt;/p&gt;
+
+&lt;h2 id=&quot;inspiration&quot;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;We were inspired by many different resources. When we decided on what sensors we wanted to use and the Arduino trombone we decided to see if anyone did it before. Surely enough someone did exactly what we wanted to do. We grab heavy inspiration from Hackers in Residence - The ElectricBone. It follows similar schematics but varies since ours is not a MIDI controller and it uses a touch potentiometer for octave switching. Very similar, but different in its interactions and technology.
+https://learn.sparkfun.com/tutorials/hackers-in-residence—the-electricbone/all&lt;/p&gt;
+
+&lt;p&gt;We were also inspired by the MiniWI, an outstanding MIDI woodwind instrument inspired by the famous EWI. This is what we would want future implementations of the Ardui-Bone to be. Smaller, compact, MIDI compatible, clean with a strong musical capability.
+https://hackaday.io/project/11843-miniwi-woodwind-midi-controller&lt;/p&gt;
+
+&lt;p&gt;As mentioned before the EWI was also a big inspiration for the project. This was the first time we learned about the EWI and its capabilities as a legitimate performance instrument is incredible. It’s ability to act as a MIDI controller while also producing sound independently from the computer is amazing. Truly a professional grade device. An EBI (electronic brass instrument) would be something I would buy.&lt;/p&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=2nBJjL-NV1U&amp;amp;list=LLpXmaYKUYsteXFJl96WA8SA&amp;amp;index=2&amp;amp;t=0s&lt;/p&gt;
+
+&lt;p&gt;We used the official example code of our sensors to help us understand how to use them.&lt;/p&gt;
+
+&lt;h1 id=&quot;sketches&quot;&gt;Sketches&lt;/h1&gt;
+&lt;h2 id=&quot;sketches-1&quot;&gt;Sketches&lt;/h2&gt;
+&lt;p&gt;(Insert Sketches)&lt;/p&gt;
+&lt;h2 id=&quot;circuit-schemetics&quot;&gt;Circuit Schemetics&lt;/h2&gt;
+&lt;p&gt;(Insert Schemetics)&lt;/p&gt;
+&lt;h2 id=&quot;pictures-of-work-in-progress&quot;&gt;Pictures of Work in Progress&lt;/h2&gt;
+&lt;p&gt;(Insert Photos)&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+&lt;h2 id=&quot;final-product&quot;&gt;Final Product&lt;/h2&gt;
+&lt;p&gt;(Insert Photos)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/PzLpgU17D-M&quot;&gt;Demo Video&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hanum-lee/Tangible-Interface/tree/master/Assignment2_Arduibone&quot;&gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/sparkfun/HC-SR04_UltrasonicSensor&quot;&gt;Ultra Sonic Sensor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.arduino.cc/en/Tutorial/SimpleAudioPlayer&quot;&gt;Simple Audio Player&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://create.arduino.cc/projecthub/Nicholas_N/how-to-use-the-accelerometer-gyroscope-gy-521-6dfc19&quot;&gt;Accelerometer and Gyroscope Tutorial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://osepp.com/electronic-modules/sensor-modules/78-sound-sensor-module&quot;&gt;Sound Sensor Module Tutorial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.stackexchange.com/questions/3348/calculating-pitch-yaw-and-roll-from-mag-acc-and-gyro-data&quot;&gt;Calculating Pitch, yaw and roll&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We also tried utilizing MIDI libraries including MIDIUSB and Arduino MIDI but we could not get them to communicate with our DAWs (GarageBand and LMMS).&lt;/p&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="Human-Computer-Interaction" /><category term="Arduino" /><category term="CPSC599" /><category term="TUI" /><summary type="html">We made a trumbone with arduino and various sensory input. We used gyroscope, pressure dectector and range sensor.</summary></entry><entry><title type="html">Moon Night Light</title><link href="http://localhost:4000/2020/01/29/CPSC599TUIP1.html" rel="alternate" type="text/html" title="Moon Night Light" /><published>2020-01-29T00:00:00-07:00</published><updated>2020-01-29T00:00:00-07:00</updated><id>http://localhost:4000/2020/01/29/CPSC599TUIP1</id><content type="html" xml:base="http://localhost:4000/2020/01/29/CPSC599TUIP1.html">&lt;p&gt;Night night which shows what phase of the night it is.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This project is night light where the central “moon” figure rotates according to what time of the night it is. The light is on with two conditions, the environment has to be dark and button is pressed. There are many products with either night light function or time function, but there are not many objects that has subtle and passive indication of time. This Arduino project will be useful for people who does not need specific time of the night, but just have a general idea of how much time has passed after going for sleep.&lt;/p&gt;
+
+&lt;p&gt;I have connected phototransistor to measure how much light is being emitted by surrounding environment. When the surrounding light level is below certain point, night light activates, and LED emits light. The servo in the middle also rotates the “moon” shape. The angle of the moon depends on what time of the night. It starts on the left then moves towards right of the night light.&lt;/p&gt;
+
+&lt;h1 id=&quot;sketches&quot;&gt;Sketches&lt;/h1&gt;
+&lt;h2 id=&quot;sketches-1&quot;&gt;Sketches&lt;/h2&gt;
+&lt;p&gt;(Insert Sketches)&lt;/p&gt;
+
+&lt;h2 id=&quot;circuit-schematic&quot;&gt;Circuit Schematic&lt;/h2&gt;
+&lt;p&gt;(Insert Sketches)&lt;/p&gt;
+
+&lt;h2 id=&quot;product-in-building&quot;&gt;Product in building&lt;/h2&gt;
+&lt;p&gt;(Insert photos)&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+&lt;h2 id=&quot;final-product&quot;&gt;Final Product&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/9T15qEF5nGI&quot;&gt;Demo Video&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hanum-lee/Tangible-Interface&quot;&gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.arduino.cc/en/tutorial/switch&quot;&gt;Switch Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="Human-Computer-Interaction" /><category term="Arduino" /><category term="CPSC599" /><category term="TUI" /><summary type="html">Night night which shows what phase of the night it is.</summary></entry><entry><title type="html">ARMazing Advanture</title><link href="http://localhost:4000/2019/12/04/AR-mazing-Advanture.html" rel="alternate" type="text/html" title="ARMazing Advanture" /><published>2019-12-04T00:00:00-07:00</published><updated>2019-12-04T00:00:00-07:00</updated><id>http://localhost:4000/2019/12/04/AR-mazing-Advanture</id><content type="html" xml:base="http://localhost:4000/2019/12/04/AR-mazing-Advanture.html">&lt;p&gt;We created an augmented reality game for iOS using Swift and SceneKit.&lt;/p&gt;
+
+&lt;!--more--&gt;
+&lt;hr /&gt;
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;h2 id=&quot;objectives&quot;&gt;Objectives&lt;/h2&gt;
+
+&lt;h2 id=&quot;challenges&quot;&gt;Challenges&lt;/h2&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;h2 id=&quot;final-product&quot;&gt;Final Product&lt;/h2&gt;
+&lt;p&gt;(Insert Photos)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1xfz6V9eIl61tCXI0gXR1RobTAU_8mB-w2F3wJTvgie0/edit?usp=sharing&quot;&gt;Final Report&lt;/a&gt;&lt;/p&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="Augmented-Reality" /><category term="AR" /><category term="iOS" /><category term="Swift" /><summary type="html">We created an augmented reality game for iOS using Swift and SceneKit.</summary></entry><entry><title type="html">CPSC581 (Human Computer Interaction II) Project 3, Fashion Technology</title><link href="http://localhost:4000/2019/04/08/CPSC581P3.html" rel="alternate" type="text/html" title="CPSC581 (Human Computer Interaction II) Project 3, Fashion Technology" /><published>2019-04-08T00:00:00-06:00</published><updated>2019-04-08T00:00:00-06:00</updated><id>http://localhost:4000/2019/04/08/CPSC581P3</id><content type="html" xml:base="http://localhost:4000/2019/04/08/CPSC581P3.html">&lt;p&gt;We created a blazer which lights up the stars when you pad your sholder.&lt;/p&gt;
+
+&lt;!--more--&gt;
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;In this assignment, we had to create a fashion technology. Our group made a blazer that lights up stars when you pat yourself on the back. We thought this would help to raising self-esteem and something to keep track of the number of the goals or achievements.&lt;/p&gt;
+
+&lt;h1 id=&quot;sketches&quot;&gt;Sketches&lt;/h1&gt;
+&lt;h2 id=&quot;initial-sketches&quot;&gt;Initial Sketches&lt;/h2&gt;
+&lt;p&gt;When I was drawing the initial sketches, I focused on what would be nice to have instead of what is possible. For example, I have a hat/cap which shows the emotion or feeling that you currently feeling. I know that it is not possible with the current sensors input and outputs that we have, but I thought it would be really cool to have something like that.&lt;/p&gt;
+
+&lt;p&gt;(Insert Sketches)&lt;/p&gt;
+
+&lt;h2 id=&quot;refined-sketches&quot;&gt;Refined Sketches&lt;/h2&gt;
+&lt;p&gt;We ended up going with the idea of “Achievement Clothes”, where stars light up when you “pat yourself on the back”. Our group decided that this would be possible to implement in given time while having a good story behind it.&lt;/p&gt;
+
+&lt;p&gt;When I was drawing refined sketch, I focused on the location and the patterns of the stars on the clothes rather than the method to interact with the clothes.&lt;/p&gt;
+
+&lt;p&gt;(Insert Sketches)&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;We end up making a blazer that lights up the stars when you pat yourself on the back. Our group discussed a lot on what clothes should be put the stars on. Some of the options were, blazer, sash, and medal. We decided to go with the blazer because we wanted something like military blazer which goes well with the idea that we were going for. We decided to have 7 stars because we thought that 7 achievements per time would be a good number to track and also does not overwhelm the blazer.&lt;/p&gt;
+
+&lt;p&gt;Each time when you pat yourself on the left shoulder, a star on your chest lights up. When you reach 7 stars, you can pat the same place to reset the stars. The color of the stars are random and LED lights randomly flickers to have “twinkle” effect on the stars.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/dennis-duong/581_P3_Fashion_Tech&quot;&gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/D-KSMKeMvzA&quot;&gt;Demo Video&lt;/a&gt;&lt;/p&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="Human-Computer-Interaction" /><category term="Arduino" /><category term="Fashion-Technology" /><summary type="html">We created a blazer which lights up the stars when you pad your sholder.</summary></entry><entry><title type="html">CPSC581 (Human Computer Interaction II) Project 2, Arduino</title><link href="http://localhost:4000/2019/03/18/CPSC581P2.html" rel="alternate" type="text/html" title="CPSC581 (Human Computer Interaction II) Project 2, Arduino" /><published>2019-03-18T00:00:00-06:00</published><updated>2019-03-18T00:00:00-06:00</updated><id>http://localhost:4000/2019/03/18/CPSC581P2</id><content type="html" xml:base="http://localhost:4000/2019/03/18/CPSC581P2.html">&lt;p&gt;We created a posture detection machine with Arduino to solve one of the everyday problem.&lt;/p&gt;
+
+&lt;!--more--&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;skills&quot;&gt;Skills:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Arduino&lt;/li&gt;
+  &lt;li&gt;Sensory Input&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;We made “Posture Fixation” machine with Arduino and Grove Ultrasound range finder.&lt;/p&gt;
+
+&lt;p&gt;The basic functionally is that it measures the distance between the user and the machine and if the user gets closer than they previously set as “correct posture”, it turns on a red LED light to indicate that user has become “incorrect posture”&lt;/p&gt;
+
+&lt;h1 id=&quot;sketches&quot;&gt;Sketches&lt;/h1&gt;
+&lt;h2 id=&quot;initial-sketches&quot;&gt;Initial Sketches&lt;/h2&gt;
+&lt;p&gt;I tried to think about the everyday problem that we can solve it with the given sensors. I tried to use the storyboard method to sketch since this includes human interaction.&lt;/p&gt;
+
+&lt;p&gt;(insert sketches)&lt;/p&gt;
+
+&lt;h2 id=&quot;refined-sketches&quot;&gt;Refined Sketches&lt;/h2&gt;
+&lt;p&gt;After getting feedback for our initial sketches, we decided that fixing posture was simple enough but useful to implement ourselves. We thought about how to indicate whether the user is in the correct posture or not. Also, we discussed quite a bit on where the sensor should be.&lt;/p&gt;
+
+&lt;p&gt;(insert sketches)&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;After discussing how the orientation of the sensors with the board should be, we decided to have it on the table. We are indicating whether the user is out of correct posture using a red LED light. We decided to use the red LED light instead of other sensors because we felt that this would annoy users less than the buzzer which consistently makes a loud noise. We also thought that the sound sensor reminded us about  Wall-E, so we made the machine looked similar to it.&lt;/p&gt;
+
+&lt;p&gt;(Insert a picture)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/dennis-duong/581_P2_Arduino&quot;&gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/82eqsRsUluU&quot;&gt;Demo Video&lt;/a&gt;&lt;/p&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="Human-Computer-Interaction" /><category term="Arduino" /><summary type="html">We created a posture detection machine with Arduino to solve one of the everyday problem.</summary></entry><entry><title type="html">CPSC581 (Human Computer Interaction II) Project 1, Unlocking Mechanism</title><link href="http://localhost:4000/2019/02/25/CPSC581P1.html" rel="alternate" type="text/html" title="CPSC581 (Human Computer Interaction II) Project 1, Unlocking Mechanism" /><published>2019-02-25T00:00:00-07:00</published><updated>2019-02-25T00:00:00-07:00</updated><id>http://localhost:4000/2019/02/25/CPSC581P1</id><content type="html" xml:base="http://localhost:4000/2019/02/25/CPSC581P1.html">&lt;p&gt;We are creating a new methods of unlocking phones with touch input and sensory input.&lt;/p&gt;
 
 &lt;!--more--&gt;
 &lt;hr /&gt;
@@ -41,7 +288,7 @@
 
 &lt;p&gt;After team discussion, we decided to go with the “Clock” and “French Word” idea.&lt;/p&gt;
 
-&lt;h2 id=&quot;final-sketches&quot;&gt;Final Sketches&lt;/h2&gt;
+&lt;h2 id=&quot;refined-sketches&quot;&gt;Refined Sketches&lt;/h2&gt;
 &lt;p&gt;(Insert sketches)&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
@@ -52,8 +299,9 @@
 &lt;p&gt;The unlock mechanism fits the design specification of preventing accidental unlocking because, with the “Clock” method, the user has to aim for the specific time shown in the clock. This prevents accidental unlock because it is hard for accidental unlock to match those two consecutive timing.&lt;/p&gt;
 
 &lt;p&gt;The “French word” prevents accidental unlock because it has to recognize the word said by the user which is a specific word on the screen which is in French. Since we are in living in English environment, it is rare for someone to say the exact word that is on the screen.&lt;/p&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="Human-Computer-Interaction" /><category term="Javascript" /><summary type="html">We are creating a new methods of unlocking phones with touch input and sensory input.</summary></entry><entry><title type="html">CPSC581 (Human Computer Interaction II) Project 0, Button</title><link href="http://localhost:4000/2019/02/04/CPSC581P0.html" rel="alternate" type="text/html" title="CPSC581 (Human Computer Interaction II) Project 0, Button" /><published>2019-02-04T00:00:00-07:00</published><updated>2019-02-04T00:00:00-07:00</updated><id>http://localhost:4000/2019/02/04/CPSC581P0</id><content type="html" xml:base="http://localhost:4000/2019/02/04/CPSC581P0.html">&lt;p&gt;For Project 0 of Human Computer Interaction course, we are creating a button which represents something or someone.
-&lt;!--more--&gt;
-—&lt;/p&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;We decided to represent an artist called “John Pollock”. Our group went to interview different people and came back to see who will be best to represent with a button.&lt;/p&gt;
@@ -72,7 +320,7 @@
 
 &lt;p&gt;After discussing with teammates and presenting to classmates, we decided to represent an artist, John Pollock.&lt;/p&gt;
 
-&lt;h2 id=&quot;final-sketches&quot;&gt;Final Sketches:&lt;/h2&gt;
+&lt;h2 id=&quot;refined-sketches&quot;&gt;Refined Sketches:&lt;/h2&gt;
 
 &lt;p&gt;Our final sketches are on “Artist Button”&lt;/p&gt;
 
@@ -88,16 +336,4 @@
 
 &lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
 
-&lt;p&gt;The button fits the design brief because it represents the distinct art style of the artist.If anyone knows about the art style of him, it would be obvious to notice that we are trying to represent him.&lt;/p&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="Human-Computer-Interaction" /><category term="Javascript" /><summary type="html">For Project 0 of Human Computer Interaction course, we are creating a button which represents something or someone.</summary></entry><entry><title type="html">Welcome</title><link href="http://localhost:4000/2018/07/01/welcome.html" rel="alternate" type="text/html" title="Welcome" /><published>2018-07-01T00:00:00-06:00</published><updated>2018-07-01T00:00:00-06:00</updated><id>http://localhost:4000/2018/07/01/welcome</id><content type="html" xml:base="http://localhost:4000/2018/07/01/welcome.html">&lt;p&gt;If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost:&lt;/p&gt;
-
-&lt;p&gt;You may want to &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/configuration&quot;&gt;config the site&lt;/a&gt; or &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/writing-posts&quot;&gt;writing a post&lt;/a&gt; next. Please feel free to &lt;a href=&quot;https://github.com/kitian616/jekyll-TeXt-theme/issues&quot;&gt;create an issue&lt;/a&gt; or &lt;a href=&quot;mailto:kitian616@outlook.com&quot;&gt;send me email&lt;/a&gt; if you have any questions.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;If you like TeXt, don’t forget to give me a star. :star2:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/kitian616/jekyll-TeXt-theme/&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/stars/kitian616/jekyll-TeXt-theme.svg?label=Stars&amp;amp;style=social&quot; alt=&quot;Star This Project&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="TeXt" /><summary type="html">If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost: You may want to config the site or writing a post next. Please feel free to create an issue or send me email if you have any questions.</summary></entry><entry><title type="html">Post with Header Image</title><link href="http://localhost:4000/2018/06/01/header-image.html" rel="alternate" type="text/html" title="Post with Header Image" /><published>2018-06-01T00:00:00-06:00</published><updated>2018-06-01T00:00:00-06:00</updated><id>http://localhost:4000/2018/06/01/header-image</id><content type="html" xml:base="http://localhost:4000/2018/06/01/header-image.html">&lt;p&gt;A Post with Header Image, See &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/samples.html#page-layout&quot;&gt;Page layout&lt;/a&gt; for more examples.&lt;/p&gt;
-
-&lt;!--more--&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="TeXt" /><summary type="html">A Post with Header Image, See Page layout for more examples.</summary></entry></feed>
+&lt;p&gt;The button fits the design brief because it represents the distinct art style of the artist.If anyone knows about the art style of him, it would be obvious to notice that we are trying to represent him.&lt;/p&gt;</content><author><name>Daniel (Hanum) Lee</name><email>hanum.lee1@gmail.com</email></author><category term="Human-Computer-Interaction" /><category term="Javascript" /><summary type="html">For Project 0 of Human Computer Interaction course, we are creating a button which represents something or someone.</summary></entry></feed>
