@@ -10,10 +10,15 @@ aside:
 
 My name is Daniel (Hanum) Lee, I graduated from University of Calgary with Major in Computer Scince. I did concentration in Human-Computer Science.
 
+I am interested in extended reality(XR) technologies. I have worked on several projects and you can find them on this website.
+
 ## Contact
 You can contact me in many ways, but best will be through [email](mailto:hanum.lee1@gmail.com). You can visit my [Github](https://github.com/hanum-lee) page to see previous works. I have [LinkedIn](https://www.linkedin.com/in/daniel-hanum-lee-825549187/) page as well. 
 
-[Download Resume](/assets/resume/Resume_200905.pdf)
+[Download AR/VR Developer Resume](/assets/resume/Resume Daniel Lee AR_VR.pdf)
+
+[Download Web Developer Resume](/assets/resume/Resume Daniel Lee WebDev.pdf)
+
 
 ---
 # Formal Education
